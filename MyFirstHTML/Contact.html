@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default warna-nav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Training Bootstrap</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Profile.html" class="warna-text-nav">Profil</a></li>
+                    <li><a href="Contact.html" class="warna-text-nav">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- component here -->
+
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Riku <br />Kiranatama</h2>
+                <img src="sadow.jpg" alt="Pinguin" class="img-circle">
+            </div>
+            <div class="col-md-9" >
+                <table class="table borderless">
+                    <tr><th>Email :</th><td><input type="text" class="form-control" id="email" placeholder="Email"></td></tr>
+                    <tr><th>Message :</th><td><textarea class="form-control" rows="3">Message</textarea></td></tr>
+                    <tr><td><input type="button" class="btn btn-default" value="submit" /></td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
